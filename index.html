@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+ <div id="calculator" name='calculator'>
+   <div id="enter"> 
+     <input type="text" id="res">
+     <input type="text" id="enterRes">
+   </div>
+   <div id="comands">
+     <input type="button" value="C" class="comand" id="C" onclick="Clear()" >
+     <input type="button" value="√"  class="comand"onclick="Sqrt()">
+     <input type="button" value="%"  class="comand"onclick="DisplayValue('%')">
+     <input type="button" value="/"  class="comand"onclick="DisplayValue('/')">
+     <input type="button" value="7"  class="numb"onclick="DisplayValue(7)">
+     <input type="button" value="8"  class="numb"onclick="DisplayValue(8)">
+     <input type="button" value="9"  class="numb"onclick="DisplayValue(9)">
+     <input type="button" value="X"  class="comand"onclick="DisplayValue('*')">
+     <input type="button" value="4"  class="numb"onclick="DisplayValue(4)">
+     <input type="button" value="5"  class="numb"onclick="DisplayValue(5)">
+     <input type="button" value="6"  class="numb"onclick="DisplayValue(6)">
+     <input type="button" value="-"  class="comand"onclick="DisplayValue('-')">
+     <input type="button" value="1"  class="numb" onclick="DisplayValue(1)">
+     <input type="button" value="2"  class="numb"onclick="DisplayValue(2)">
+     <input type="button" value="3"  class="numb"onclick= "DisplayValue(3)">
+     <input type="button" value="+"  class="comand"onclick="DisplayValue('+')">
+     <input type="button" value="."  class="numb"onclick="DisplayValue('.')">
+     <input type="button" value="0"  class="numb"onclick="DisplayValue(0)">
+     <input type="button" value="x^2"  class="numb"onclick="theSquareOftheNumber()">
+     <input type="button" value="="  class="comand"onclick="Equally()">
+   </div>
+
+ </div>
+  
+    <script src="index.js"></script>
+   
+    
+</body>
+</html>
